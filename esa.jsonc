@@ -1,0 +1,14 @@
+{
+  // ESA Pages 项目名，不存在时会按此名称自动创建
+  "name": "wangyeblog",
+  // 使用 package-lock.json 安装依赖，保证构建可复现
+  "installCommand": "npm ci",
+  // 对应 package.json 中的 build 脚本：hexo generate
+  "buildCommand": "npm run build",
+  "assets": {
+    // Hexo 默认静态文件输出目录
+    "directory": "./public",
+    // 安知鱼主题会生成 404.html
+    "notFoundStrategy": "404Page"
+  }
+}
