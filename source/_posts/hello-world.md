@@ -1,5 +1,5 @@
 ---
-title: 你好，世界
+title: 瞎玩儿
 date: 2026-10-19 18:15:00
 tags:
   - Hexo
@@ -7,7 +7,7 @@ categories:
   - 随笔
 ---
 
-欢迎来到 **WangyeBlog**，这是博客的第一篇文章。
+我真是太帅了
 
 本站使用 [Hexo](https://hexo.io/zh-cn/) 搭建，主题为 [Anzhiyu（安知鱼）](https://docs.anheyu.com/)。
 
@@ -16,10 +16,9 @@ categories:
 创建一篇新文章：
 
 ```bash
-npx hexo new "文章标题"
-```
+npx hexo new "我太帅了"
+我为什么这么帅，我为什么这么有魅力，谁看见我不想狠狠的亲我一口呢
 
-文章会生成在 `source/_posts/` 目录下，使用 Markdown 编写即可。
 
 ## 本地预览
 
