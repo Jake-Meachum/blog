@@ -1,10 +1,10 @@
 ---
-title: 瞎玩儿
+title: 爱玩
 date: 2026-10-19 18:15:00
 tags:
   - Hexo
 categories:
-  - 随笔
+  - 我太帅
 ---
 
 我真是太帅了
