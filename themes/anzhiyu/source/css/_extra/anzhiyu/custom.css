@@ -217,7 +217,7 @@ html.hide-aside .layout > div:first-child {
 
 /* 首页背景图：使用上传的动漫图片 */
 #web_bg {
-  background-image: url('/img/home-bg-replacement.webp?v=6dd0d12') !important;
+  background-image: url('/img/home-bg-replacement.webp?v=20261022final') !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -226,7 +226,7 @@ html.hide-aside .layout > div:first-child {
 
 /* 首页顶部区域使用同一张图片，避免只配置横幅但实际看不到 */
 body[data-type] #page-header {
-  background-image: url('/img/home-bg-replacement.webp?v=6dd0d12') !important;
+  background-image: url('/img/home-bg-replacement.webp?v=20261022final') !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -235,7 +235,7 @@ body[data-type] #page-header {
 /* 文章页顶部：动漫背景 + 蓝色闪光文字 */
 #page-header.post-bg {
   min-height: 650px !important;
-  background: #050711 url('/img/home-bg-replacement.webp?v=6dd0d12') center center / cover no-repeat !important;
+  background: #050711 url('/img/home-bg-replacement.webp?v=20261022final') center center / cover no-repeat !important;
   position: relative;
 }
 #page-header.post-bg::before {
@@ -321,7 +321,7 @@ body[data-type] #page-header {
 
 /* 修复：确保首页大横幅实际显示新背景图 */
 #page-header.full_page {
-  background: #03040a url('/img/home-bg-replacement.webp?v=20261022fix') center center / cover no-repeat !important;
+  background: #03040a url('/img/home-bg-replacement.webp?v=20261022final') center center / cover no-repeat !important;
   background-attachment: scroll !important;
 }
 #page-header.full_page::before {
