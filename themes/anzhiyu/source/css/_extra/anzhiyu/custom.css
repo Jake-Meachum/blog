@@ -221,7 +221,7 @@ html.hide-aside .layout > div:first-child {
   background-position: center center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  background-attachment: fixed !important;
+  background-attachment: scroll !important;
 }
 
 /* 首页顶部区域使用同一张图片，避免只配置横幅但实际看不到 */
@@ -293,5 +293,27 @@ body[data-type] #page-header {
     color: #3aaaff;
     -webkit-text-fill-color: #3aaaff;
     text-shadow: 0 0 5px rgba(95, 205, 255, 1), 0 0 13px rgba(0, 119, 255, .95), 0 0 24px rgba(0, 102, 255, .8);
+  }
+}
+
+
+/* 性能优化：减少背景重绘和持续动画造成的掉帧 */
+#web_bg {
+  background-attachment: scroll !important;
+  will-change: auto !important;
+}
+#page-header.post-bg {
+  background-attachment: scroll !important;
+  animation: none !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  #page-header.post-bg #post-info .post-title,
+  #blog-info .site-name,
+  #blog-info #site-name,
+  #site-name,
+  #site-name a,
+  #nav .site-name,
+  #nav #site-name {
+    animation: none !important;
   }
 }
