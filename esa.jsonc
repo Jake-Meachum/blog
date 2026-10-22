@@ -4,7 +4,7 @@
   // 使用 package-lock.json 安装依赖，保证构建可复现
   "installCommand": "npm ci",
   // 对应 package.json 中的 build 脚本：hexo generate
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run clean && npm run build",
   "assets": {
     // Hexo 默认静态文件输出目录
     "directory": "./public",
