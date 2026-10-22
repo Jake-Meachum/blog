@@ -270,3 +270,28 @@ body[data-type] #page-header {
   from { text-shadow: 0 0 5px #168cff, 0 0 12px #168cff; }
   to { text-shadow: 0 0 10px #36a7ff, 0 0 22px #168cff, 0 0 36px #006dff; }
 }
+
+/* 顶部站点名称 WangyeBlog：蓝色霓虹闪光字体 */
+#blog-info .site-name,
+#blog-info #site-name,
+#site-name,
+#site-name a,
+#nav .site-name,
+#nav #site-name {
+  color: #63c7ff !important;
+  -webkit-text-fill-color: #63c7ff !important;
+  text-shadow: 0 0 4px rgba(45, 157, 255, .95), 0 0 10px rgba(0, 119, 255, .85), 0 0 20px rgba(0, 102, 255, .65) !important;
+  animation: wangye-logo-blue-glow 2.4s ease-in-out infinite alternate;
+}
+@keyframes wangye-logo-blue-glow {
+  from {
+    color: #8cddff;
+    -webkit-text-fill-color: #8cddff;
+    text-shadow: 0 0 3px rgba(70, 181, 255, .8), 0 0 8px rgba(0, 119, 255, .7);
+  }
+  to {
+    color: #3aaaff;
+    -webkit-text-fill-color: #3aaaff;
+    text-shadow: 0 0 5px rgba(95, 205, 255, 1), 0 0 13px rgba(0, 119, 255, .95), 0 0 24px rgba(0, 102, 255, .8);
+  }
+}
