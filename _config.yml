@@ -11,7 +11,7 @@ author: John Doe
 language: zh-CN
 timezone: ''
 
-body {
+ # body {
     background: url("https://ibb.co/NgWVtmzj") no-repeat center center fixed;
     background-size: cover;
 }
