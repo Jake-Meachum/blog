@@ -11,6 +11,11 @@ author: John Doe
 language: zh-CN
 timezone: ''
 
+body {
+    background: url("https://ibb.co/NgWVtmzj") no-repeat center center fixed;
+    background-size: cover;
+}
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url:https://ibb.co/gLTcVBnq
