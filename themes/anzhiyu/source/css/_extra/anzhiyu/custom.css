@@ -215,13 +215,3 @@ html.hide-aside .layout > div:first-child {
   }
 }
 
-/* 自定义全站背景图片 */
-body,
-#web_bg {
-  background-image: url("https://ibb.co/gLTcVBnq.jpg") !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  background-attachment: fixed !important;
-}
-
