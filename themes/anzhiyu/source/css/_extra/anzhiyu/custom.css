@@ -231,3 +231,42 @@ body[data-type] #page-header {
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
+
+/* 文章页顶部：动漫背景 + 蓝色闪光文字 */
+#page-header.post-bg {
+  min-height: 650px !important;
+  background: #050711 url('/img/home-bg.jpg') center center / cover no-repeat !important;
+  position: relative;
+}
+#page-header.post-bg::before {
+  content: '' !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background: linear-gradient(180deg, rgba(2, 7, 24, .22), rgba(2, 7, 24, .48)) !important;
+  pointer-events: none;
+}
+#page-header.post-bg #post-top-bg,
+#page-header.post-bg #post-top-bg img {
+  display: none !important;
+}
+#page-header.post-bg #post-info,
+#page-header.post-bg #post-info * {
+  position: relative;
+  z-index: 2;
+  color: #78c8ff !important;
+  text-shadow: 0 0 5px #168cff, 0 0 12px #168cff, 0 0 24px rgba(44, 145, 255, .95) !important;
+}
+#page-header.post-bg #post-info .post-title {
+  color: #a8dcff !important;
+  animation: blue-glow-pulse 2s ease-in-out infinite alternate;
+}
+#page-header.post-bg #post-info a,
+#page-header.post-bg #post-info time,
+#page-header.post-bg #post-info span,
+#page-header.post-bg #post-info i {
+  color: #78c8ff !important;
+}
+@keyframes blue-glow-pulse {
+  from { text-shadow: 0 0 5px #168cff, 0 0 12px #168cff; }
+  to { text-shadow: 0 0 10px #36a7ff, 0 0 22px #168cff, 0 0 36px #006dff; }
+}
