@@ -12,7 +12,7 @@ language: zh-CN
 timezone: ''
 
 
-# URL:https://github.com/Jake-Meachum/blog
+# URL:https://ibb.co/NgWVtmzj
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url:http: http://example.com
 permalink: :year/:month/:day/:title/
