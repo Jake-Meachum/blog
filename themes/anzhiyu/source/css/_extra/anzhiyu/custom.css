@@ -215,3 +215,19 @@ html.hide-aside .layout > div:first-child {
   }
 }
 
+/* 首页背景图：使用上传的动漫图片 */
+#web_bg {
+  background-image: url('/img/home-bg.jpg') !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+/* 首页顶部区域使用同一张图片，避免只配置横幅但实际看不到 */
+body[data-type] #page-header {
+  background-image: url('/img/home-bg.jpg') !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
