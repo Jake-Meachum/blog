@@ -146,7 +146,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: "background: url(/img/home-bg-replacement.webp?v=6dd0d12) top / cover no-repeat"
+index_img: "background: url(/img/home-bg-replacement.webp?v=20261022final) top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: false
